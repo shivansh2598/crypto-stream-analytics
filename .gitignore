@@ -1,0 +1,48 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.cert
+kubeconfig*
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+.python-version
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-data/
+
+# Kafka / Flink
+checkpoints/
+savepoints/
+
+# StarRocks
+starrocks-data/
+
+# Superset
+superset-data/
+
+# Logs
+*.log
+logs/
