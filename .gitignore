@@ -8,6 +8,17 @@
 kubeconfig*
 secrets/
 
+# Go
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
 # Python
 __pycache__/
 *.py[cod]
